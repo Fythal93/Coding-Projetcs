@@ -1,0 +1,86 @@
+body
+{
+    font-family: Verdana, "Arial Black", sans-serif;
+    background-color: hsl(30, 80%, 80%);
+    margin: auto;
+    min-width: 750px;
+    max-width: 1350px;
+    width: 75%;
+}
+
+body *
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+header, footer, section, nav
+{
+    background-color: hsl(0, 0%, 95%);
+    display: block;
+}
+
+header h1
+{
+    background-color: hsl(140, 80%, 20%);
+    color: white;
+    display: block;
+    line-height: 2em;
+    margin: 0 0 0 0;
+    text-align: center;
+}
+
+h1, h2
+{
+    font-size: 1.4em;
+    font-weight: 400;
+}
+
+ul
+{
+    list-style-type: none;
+    width: 100%;
+}
+
+nav ul li
+{
+    background-color: hsl(0, 100%, 25%);
+    float: left;
+    font-size: 1.4em;
+    line-height: 2em;
+    text-align: center;
+    width: 33.33%;
+
+}
+
+nav ul li:hover
+{
+    background-color: grey;
+}
+
+li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+article
+{
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: hsl(0, 0%, 50%);
+    clear: left;
+}
+
+section p, section ul, section h2
+{
+    padding: 10px 5% 10px 5%;
+}
+
+footer
+{
+    font-family: "Times New Roman";
+    font-variant: small-caps;
+    padding: 1% 0% 1% 0%;
+    text-align: center;
+}

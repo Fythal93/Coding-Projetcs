@@ -1,0 +1,53 @@
+
+input, select
+{
+    float: left;
+    height: 25px;
+    margin: 5px 0px 5px 0px;
+    text-align: left;
+    width:30%;
+}
+.lg-label
+{
+    float: left;
+    margin: 5px 2% 5px auto;
+    padding-left: 25%;
+    text-align: right;
+    width: 25%;
+}
+
+#instructions
+{
+    height: 200px;
+}
+
+span
+{
+    float: left;
+    margin-left: 2%;
+    width: 13%;
+}
+
+span label
+{
+    float: left;
+}
+
+span input
+{
+    clear: left;
+    width: 12%;
+}
+
+.button
+{
+    height: 35px;
+    margin-left: 18%;
+    width: 200px;
+    text-align: center;
+}
+
+p
+{
+    clear: both;
+}

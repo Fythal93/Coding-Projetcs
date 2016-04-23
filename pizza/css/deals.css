@@ -1,0 +1,23 @@
+table
+{
+    border-width: 5px;
+    border-style: double;
+    border-color: hsl(140, 80%, 20%);
+    border-collapse:collapse;
+    margin: 0px 5% 0px 5%;
+}
+
+th, td
+{
+    border-width: 3px;
+    border-style: solid;
+    border-color: hsl(140, 80%, 20%);
+    padding: 2% 1% 2% 1%;
+    width: 12%;
+}
+
+ol
+{
+    padding: 10px 5%;
+    list-style-type: upper-alpha;
+}

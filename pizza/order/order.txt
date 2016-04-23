@@ -1,0 +1,35 @@
+The Fake Pizza Store
+
+Home
+Daily Deals
+Order
+
+Order Form
+
+Please fill up the form below and click on send button to complete your order.
+
+First and Last Name:
+
+Street Address:
+
+How would you like your pizza?
+Light
+Regular
+Well Done
+
+Choose your topping:
+Mushroom
+Tomato
+Pepperoni
+Onion
+Beef
+
+
+Type any special instructions you would like to add:
+
+Add free sauce and ketchup:
+
+Send
+Cancel
+
+12345 Fake St. * Fake City * Fake Province
