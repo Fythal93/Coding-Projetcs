@@ -1,0 +1,44 @@
+/*
+Name: Matt Pagnan
+Student #: 1208693
+macid: pagnanmm
+*/
+.calc
+{
+	margin: auto;
+	margin-top: 3%;
+	border: 3px solid;
+}
+
+.calcButton
+{
+	width:60px;
+	height: 25px;
+}
+
+.displayRow
+{
+	border: 2px solid;
+}
+.disp{
+	padding: 7px;
+}
+.res
+{
+	display: inline-block;
+	float: right;
+	padding: 5px;
+	padding-top: 0px;
+}
+
+.cellCenter
+{
+	text-align: center;
+	vertical-align: middle;
+}
+
+td
+{
+	border: 5px solid;
+	border-color: #ffffff;
+}

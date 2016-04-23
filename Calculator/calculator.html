@@ -1,0 +1,52 @@
+<!--
+Name: Matt Pagnan
+Student #: 1208693
+macid: pagnanmm
+-->
+<html lang ="en">
+<head>
+	<meta charset = "UTF-8">
+	<link href="calculator.css" type="text/css" rel="stylesheet" />
+	<script type="text/javascript" src="calculator.js"></script>
+</head>
+<body>
+	<form name="calc">
+		<table id="calcTable" class = "calc">
+		<tr >
+			<td class="displayRow" colspan = 10>
+				<label class="disp" id="displayLabel" name="display"></label><br>
+				<label class="res" id="resultLabel" name="input">&nbsp;</label>
+			</td>
+		</tr>
+		<tr>
+			<td><input class ="calcButton" type="button" value="7" onclick="updateDisplay('7');"/></td>
+			<td><input class ="calcButton" type="button" value="8" onclick="updateDisplay('8');"/></td>
+			<td><input class ="calcButton" type="button" value="9" onclick="updateDisplay('9');"/></td>
+			<td><input class ="calcButton" type="button" value="DEL" onclick="deleteOne();"/></td>
+			<td><input class ="calcButton" type="button" value="AC" onclick="displayReset();"/></td>	
+		</tr>
+		<tr>
+			<td><input class ="calcButton" type="button" value="4" onclick="updateDisplay('4');"/></td>
+			<td><input class ="calcButton" type="button" value="5" onclick="updateDisplay('5');"/></td>
+			<td><input class ="calcButton" type="button" value="6" onclick="updateDisplay('6');"/></td>
+			<td><input class ="calcButton" type="button" value="&times" onclick="updateDisplay('*');"/></td>
+			<td><input class ="calcButton" type="button" value="&divide" onclick="updateDisplay('/');"/></td>
+		</tr>
+		<tr>
+			<td><input class ="calcButton" type="button" value="1" onclick="updateDisplay('1');"/></td>
+			<td><input class ="calcButton" type="button" value="2" onclick="updateDisplay('2');"/></td>
+			<td><input class ="calcButton" type="button" value="3" onclick="updateDisplay('3');"/></td>
+			<td><input class ="calcButton" type="button" value="+" onclick="updateDisplay('+');"/></td>
+			<td><input class ="calcButton" type="button" value="-" onclick="updateDisplay('-');"/></td>
+		</tr>
+		<tr>
+			<td><input class ="calcButton" type="button" value="0" onclick="updateDisplay('0');"/></td>
+			<td><input class ="calcButton" type="button" value="." onclick="updateDisplay('.');"/></td>
+			<td><input class ="calcButton" type="button" value="EXP" onclick="updateDisplay('e')"></td>
+			<td><input class ="calcButton" type="button" value="=" onclick="evalDisplay();"/></td>
+			<td><input id="modeBtn" class ="calcButton" type="button" value="Sci" onclick="sciMode();"></td>
+		</tr>
+		</table>
+	</form>
+</body>
+</html>
